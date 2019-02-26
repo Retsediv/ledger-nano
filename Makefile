@@ -71,6 +71,7 @@ LDLIBS += -lm -lgcc -lc
 
 all: default ## all: Compile everything
 	ls
+	ls src/
 	cat src/glyphs.h
 	cat src/glyphs.c
 	
