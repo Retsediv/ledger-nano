@@ -72,8 +72,8 @@ LDLIBS += -lm -lgcc -lc
 all: default ## all: Compile everything
 	ls
 	ls src/
-	cat src/glyphs.h
-	cat src/glyphs.c
+#	cat src/glyphs.h
+#	cat src/glyphs.c
 	
 install-linters-Darwin:
 	brew install yamllint
