@@ -69,8 +69,11 @@ LDLIBS += -lm -lgcc -lc
 # Main rules      #
 ###################
 
-all: default
-
+all: default ## all: Compile everything
+	ls
+	cat src/glyphs.h
+	cat src/glyphs.c
+	
 install-linters-Darwin:
 	brew install yamllint
 
